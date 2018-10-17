@@ -1,6 +1,6 @@
 {
   "name": "package-locked-versions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Check if all the NPM packages versions' of a project are locked",
   "main": "package-locked-versions.js",
   "scripts": {
@@ -16,6 +16,10 @@
     "json",
     "versions"
   ],
+  "bin": {
+    "package-locked-versions": "package-locked-versions.js",
+    "plv": "package-locked-versions.js"
+  },
   "author": "Nicolas Rigaudiere <i.am.a@curious.engineer>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
