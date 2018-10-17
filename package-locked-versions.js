@@ -1,5 +1,6 @@
-const packageJSON = require('./package.json');
-
+#!/usr/bin/env node
+const path = require('path');
+const packageJSON = require(`${process.env.PWD}/package.json`);
 const unlockedPackages = [];
 
 Object.entries(packageJSON.dependencies).forEach((dep) => {
@@ -14,7 +15,8 @@ if (unlockedPackages.length > 0) {
   unlockedPackages.forEach((pack) => {
     console.error(` - ${pack}`);
   });
-  process.exit();
+
+  process.exit(1);
 } else {
   console.info('All packages are locked');
 }
