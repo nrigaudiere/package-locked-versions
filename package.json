@@ -1,6 +1,6 @@
 {
   "name": "package-locked-versions",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Check if all the NPM packages versions' of a project are locked",
   "main": "package-locked-versions.js",
   "scripts": {
