@@ -1,0 +1,25 @@
+{
+  "name": "package-locked-versions",
+  "version": "0.1.0",
+  "description": "Check if all the NPM packages versions' of a project are locked",
+  "main": "package-locked-versions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrigaudiere/package-locked-versions.git"
+  },
+  "keywords": [
+    "package",
+    "locked",
+    "json",
+    "versions"
+  ],
+  "author": "Nicolas Rigaudiere <i.am.a@curious.engineer>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/nrigaudiere/package-locked-versions/issues"
+  },
+  "homepage": "https://github.com/nrigaudiere/package-locked-versions#readme"
+}
